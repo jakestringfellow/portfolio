@@ -1,6 +1,6 @@
 import { Container, Nav, NavDropdown, Navbar } from "react-bootstrap"
 import { useState, useEffect } from "react";
-import name from '../assets/img/name.svg';
+import name from '../assets/img/name-spaced.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/github.svg';
  
@@ -47,7 +47,7 @@ export const NavBar = () => {
 							<a href="https://www.linkedin.com/in/jake-stringfellow-71446925b/"><img src={navIcon1} alt="" /></a>
 							<a href="https://github.com/jakestringfellow?tab=overview&from=2023-07-01&to=2023-07-31"><img src={navIcon2} alt="" /></a>
 						</div>
-						<button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+						<button className="vvd" onClick={() => console.log('connect')}><span>Contact Me</span></button>
 					</span>
 				</Navbar.Collapse>
 			</Container>
