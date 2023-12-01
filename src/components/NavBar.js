@@ -44,10 +44,10 @@ export const NavBar = () => {
 					</Nav>
 					<span className="navbar-text">
 						<div className="social-icon">
-							<a href="https://www.linkedin.com/in/jake-stringfellow-71446925b/"><img src={navIcon1} alt="" /></a>
-							<a href="https://github.com/jakestringfellow?tab=overview&from=2023-07-01&to=2023-07-31"><img src={navIcon2} alt="" /></a>
+							<a href="https://www.linkedin.com/in/jake-stringfellow-71446925b/" target="_blank"><img src={navIcon1} alt="" /></a>
+							<a href="https://github.com/jakestringfellow?tab=overview&from=2023-07-01&to=2023-07-31" target="_blank"><img src={navIcon2} alt="" /></a>
 						</div>
-						<button className="vvd" onClick={() => console.log('connect')}><span>Contact Me</span></button>
+						<Nav.Link href="#connect"><button className="vvd" ><span>Contact Me</span></button></Nav.Link>
 					</span>
 				</Navbar.Collapse>
 			</Container>
