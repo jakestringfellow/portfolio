@@ -7,6 +7,7 @@ import objRecImg from "../assets/img/2dObjectRecImg.png";
 import signLangRecImg from "../assets/img/signLangRec.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import portfolioImg from "../assets/img/portfolio-img.png"
 
 export const Projects = () => {
 
@@ -20,6 +21,14 @@ export const Projects = () => {
 	  link: "https://filmdom.netlify.app/#/filmdom/home",
 
     },
+	{
+		title: "Portfolio",
+		description: "My personal portfolio which you are currenly viewing!",
+		imgUrl: portfolioImg,
+		web: true, 
+		github:"https://github.com/jakestringfellow/portfolio",
+		link: "https://jake-stringfellow.netlify.app/"
+	}
   ];
 
   const otherProjects = [
