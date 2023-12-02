@@ -309,6 +309,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
+.resume-link {
+  text-decoration: none;
+}
+
 /*** End Banner CSS ***/
 
 /*** Begin Skills CSS ***/
