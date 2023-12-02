@@ -54,7 +54,7 @@ export const Banner = () => {
 								<p>
 								I'm Jake Stringfellow, a passionate Full Stack and Graphics Developer based in Rhode Island. With a rich background in both backend and frontend development, I specialize in creating seamless, efficient, and visually appealing digital solutions. 
 								</p>
-								<a href="../assets/docs/resume.pdf" target="_blank" className="resume-link"><button >Resume/CV <ArrowRightCircle size={25}/></button></a>
+								<a href="https://drive.google.com/file/d/1PgqM7tYhNvBExMuRoPnOsVZ8YJWOFzpz/view?usp=sharing" target="_blank" className="resume-link"><button >Resume/CV <ArrowRightCircle size={25}/></button></a>
 							</div>}
 						</TrackVisibility>				
 					</Col>
