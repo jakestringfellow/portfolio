@@ -52,7 +52,7 @@ export const Banner = () => {
 							<div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
 								<h1>{`Jake Stringfellow, `}<span className="txt-rotate" dataPeriod="1000" >{text}</span></h1>
 								<p>
-								I'm Jake Stringfellow, a passionate Full Stack and Graphics Developer based in Rhode Island. With a rich background in both backend and frontend development, I specialize in creating seamless, efficient, and visually appealing digital solutions. 
+								I'm Jake Stringfellow, a Full Stack and Graphics Developer based in Rhode Island. With a background in both backend and frontend development, I specialize in creating seamless, efficient, and visually appealing digital solutions. 
 								</p>
 								<a href="https://drive.google.com/file/d/1PgqM7tYhNvBExMuRoPnOsVZ8YJWOFzpz/view?usp=sharing" target="_blank" className="resume-link"><button >Resume/CV <ArrowRightCircle size={25}/></button></a>
 							</div>}
