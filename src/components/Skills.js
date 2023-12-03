@@ -12,6 +12,7 @@ import openglLogo from "../assets/img/opengl-original.svg";
 import opencvLogo from "../assets/img/opencv-original.svg";
 import mongodbLogo from "../assets/img/mongodb-original.svg";
 import gitLogo from "../assets/img/git-original.svg";
+import bootstrapLogo from "../assets/img/bootstrap-original.svg"
 
 
 
@@ -94,6 +95,10 @@ export const Skills = () => {
 								<div className="item">
 									<img src={gitLogo} alt="Image" />
 									<h5>Git</h5>
+								</div>
+								<div className="item">
+									<img src={bootstrapLogo} alt="Image" />
+									<h5>Bootstrap</h5>
 								</div>
 							</Carousel>
 						</div>
