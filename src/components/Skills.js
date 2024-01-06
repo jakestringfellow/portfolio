@@ -53,6 +53,22 @@ export const Skills = () => {
 							</p>
 							<Carousel responsive={responsive} infinite={true} className="skill-slider">
 								<div className="item">
+									<img src={cplusplusLogo} alt="Image" />
+									<h5>C++</h5>
+								</div>
+								<div className="item">
+									<img src={pythonLogo} alt="Image" />
+									<h5>Python</h5>
+								</div>
+								<div className="item">
+									<img src={openglLogo} alt="Image" />
+									<h5>OpenGL</h5>
+								</div>
+								<div className="item">
+									<img src={opencvLogo} alt="Image" />
+									<h5>OpenCV</h5>
+								</div>
+								<div className="item">
 									<img src={javascriptLogo} alt="Image" />
 									<h5>Javascript</h5>
 								</div>
@@ -72,22 +88,7 @@ export const Skills = () => {
 									<img src={nodejsLogo} alt="Image" />
 									<h5>Node.js</h5>
 								</div>
-								<div className="item">
-									<img src={cplusplusLogo} alt="Image" />
-									<h5>C++</h5>
-								</div>
-								<div className="item">
-									<img src={pythonLogo} alt="Image" />
-									<h5>Python</h5>
-								</div>
-								<div className="item">
-									<img src={openglLogo} alt="Image" />
-									<h5>OpenGL</h5>
-								</div>
-								<div className="item">
-									<img src={opencvLogo} alt="Image" />
-									<h5>OpenCV</h5>
-								</div>
+				
 								<div className="item">
 									<img src={mongodbLogo} alt="Image" />
 									<h5>MongoDB</h5>
